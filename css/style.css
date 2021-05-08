@@ -405,6 +405,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #fff;
+  width: 673px;
 }
 
 .navbar-menu__link {
@@ -413,6 +414,7 @@ template {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
+  font-weight: bold;
 }
 
 .logo {
@@ -450,6 +452,7 @@ template {
   height: 100%;
   border: none;
   background-color: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
@@ -460,6 +463,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  margin-left: 45px;
 }
 
 .user__avatar {
