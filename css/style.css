@@ -414,6 +414,7 @@ template {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
+  font-weight: bold;
 }
 
 .logo {
@@ -462,7 +463,11 @@ template {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+<<<<<<< HEAD
   margin-left: 35px;
+=======
+  margin-left: 45px;
+>>>>>>> 01b2e38f4ed9fcebd56cd362668443344ace74a1
 }
 
 .user__avatar {
@@ -502,7 +507,12 @@ template {
   }
   .navbar-menu {
     padding-top: 22px;
+<<<<<<< HEAD
     padding-bottom: 22p;
+=======
+    padding-bottom: 22px;
+    width: 673px;
+>>>>>>> 01b2e38f4ed9fcebd56cd362668443344ace74a1
   }
   .navbar-menu__link {
     font-size: 12px;
