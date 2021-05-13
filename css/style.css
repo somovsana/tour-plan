@@ -617,6 +617,9 @@ template {
   .navbar__search {
     margin-left: auto;
   }
+  .navbar-bottom {
+    height: 60px;
+  }
   .navbar-menu {
     padding-top: 22px;
     padding-bottom: 22p;
@@ -635,7 +638,10 @@ template {
     max-width: 576px;
     width: 92%;
   }
-  .navbar__search, .navbar-menu, .navbar__user {
+  .navbar {
+    padding-bottom: 30px;
+  }
+  .navbar__search, .navbar-menu, .navbar__user, .navbar-bottom {
     display: none;
   }
   .menu-button {
@@ -667,6 +673,9 @@ template {
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+  }
+  .hotel {
+    padding-top: 0;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
