@@ -604,6 +604,9 @@ template {
   .container {
     max-width: 700px;
   }
+  .container--small {
+    max-width: 673px;
+  }
   .logo {
     width: 132px;
   }
