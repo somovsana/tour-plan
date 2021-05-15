@@ -594,6 +594,26 @@ template {
   line-height: 18px;
 }
 
+.swiper-container {
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: red;
+}
+
+.slider-button--next {
+  right: 0;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
